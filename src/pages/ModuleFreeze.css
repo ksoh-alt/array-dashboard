@@ -1,0 +1,41 @@
+.module-freeze h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.module-name {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.days-cell {
+  font-weight: 600;
+}
+
+.frozen-badge {
+  color: #2e7d32;
+}
+
+.overdue-badge {
+  color: #c62828;
+}
+
+.urgency-frozen {
+  background: #f1f8e9;
+}
+
+.urgency-overdue td {
+  background: #ffebee;
+}
+
+.urgency-critical td {
+  background: #fff8e1;
+}
+
+.urgency-warning td {
+  background: #fffde7;
+}
+
+.status-frozen { background: #e8f5e9; color: #2e7d32; }
+.status-pending { background: #e3f2fd; color: #1565c0; }
