@@ -1,0 +1,22 @@
+.schedule h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.schedule-group {
+  margin-bottom: 32px;
+}
+
+.schedule-group h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+  color: #1a1a2e;
+  padding-left: 4px;
+  border-left: 3px solid #4fc3f7;
+  padding-left: 12px;
+}
+
+.milestone-name {
+  font-weight: 600;
+}

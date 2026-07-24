@@ -1,0 +1,129 @@
+.timeline h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.timeline-chart {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px 24px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.timeline-months {
+  position: relative;
+  height: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.month-label {
+  position: absolute;
+  font-size: 0.75rem;
+  color: #888;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.today-marker {
+  position: absolute;
+  top: 30px;
+  bottom: 24px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.today-line {
+  width: 2px;
+  height: 100%;
+  background: #e53935;
+}
+
+.today-label {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: #e53935;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.timeline-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.timeline-project-name {
+  width: 200px;
+  min-width: 200px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  text-align: right;
+}
+
+.timeline-bar-container {
+  flex: 1;
+  position: relative;
+  height: 32px;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.timeline-bar {
+  position: absolute;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  transition: opacity 0.2s;
+}
+
+.timeline-bar:hover {
+  opacity: 0.85;
+}
+
+.bar-label {
+  font-size: 0.75rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.status-bar-in-progress { background: linear-gradient(135deg, #42a5f5, #1e88e5); }
+.status-bar-planning { background: linear-gradient(135deg, #ffa726, #fb8c00); }
+.status-bar-completed { background: linear-gradient(135deg, #66bb6a, #43a047); }
+
+.timeline-legend {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
